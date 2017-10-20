@@ -1,0 +1,420 @@
+body {
+	font: 12px/1.2 Arial;
+	color: #000;
+	background: #dedddd;
+	overflow-y: scroll;
+	    margin: 0 0 0 0;
+	    
+	    
+}
+
+.header{
+	    height: 84px;
+    margin-bottom: 42px;
+    background: #000;
+    display: flex;
+	        
+}
+
+div#navigation{
+	 margin-left: auto;
+    margin-right: auto;
+    height: 68px;
+    position: relative;
+    display: inline-block;
+    width: 960px;
+    text-align: center;
+}
+
+#logo{
+	float:left;
+	
+}
+
+#logo img{
+	
+	height: 82px;
+}
+
+#wrap {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#content {
+	height: auto;
+	width: 80%;
+	min-width: 536px;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 77px; 
+}
+
+#searchPanel {
+	display: flow-root;
+	height: auto;
+	background: #000;
+	width: 100%;
+	margin-bottom: 8px;
+	min-height : 132px;
+}
+
+
+#searchPanel form {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: inherit;
+	    margin-top: 22px;
+}
+
+.input {
+	line-height: 45px;
+	border: 0;
+	outline: none;
+	position: relative;
+	-webkit-transition: .1s ease;
+	text-align: center;
+	font-size: 22px;
+}
+
+p.i {
+	display: inline-block;
+	width: 91%;
+}
+
+p.s {
+	margin-left: 2%;
+	margin-right: 2%;
+	display: inline-block;
+}
+
+input:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+input:focus:-moz-placeholder {
+	color: transparent;
+} /* FF 4-18 */
+input:focus::-moz-placeholder {
+	color: transparent;
+} /* FF 19+ */
+input:focus:-ms-input-placeholder {
+	color: transparent;
+} /* IE 10+ */
+.personInfo {
+	display: flow-root;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	margin-bottom: 8px;
+	margin-top: 11px;
+}
+
+.personSelect {
+	color: white;
+	font-size: 17px;
+	width: auto;
+	max-width: 350px;
+	min-width: 331.5px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.personSelect img {
+	width: 80px;
+}
+
+#personSelectOne {
+	float: left;
+}
+
+#personSelectOne p {
+	padding-left: 95px;
+}
+
+#personSelectOne img {
+	float: left;
+}
+
+#personSelectTwo {
+	float: right;
+	text-align: end;
+}
+
+#personSelectTwo p {
+	padding-right: 95px;
+}
+
+#personSelectTwo img {
+	float: right
+}
+
+div#allEntriesMovie {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	display: block;
+}
+
+.infoMovie {
+	display: grid;
+	width: 100%;
+	height: 130px; margin-top : -130px;
+	background: black;
+	position: relative;
+	color: white;
+	text-align: center;
+	opacity: 0.75;
+	margin-top: -130px;
+}
+
+.poster {
+	
+}
+
+.mBlock .title {
+	margin-top: 15px;
+	font-size: 21px;
+	margin-bottom: 4px;
+}
+
+.mBlock .genre {
+	margin-top: 4px;
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+
+.mBlock {
+	width: 241px;
+	height: 345px;
+	float: left;
+	margin: 10px 15px 7px 15px;
+	cursor: pointer;
+}
+
+.buttonClear {
+	width: auto;
+	height: auto;
+	text-align: center;
+	background: #000000;
+	color: #dedddd;
+	border-color: white;
+	border: solid;
+	border-width: thin;
+	font-size: smaller;
+}
+
+#buttonClearOne {
+	   
+   
+    margin-left: 23px;
+    margin-top: 53px;
+}
+
+#buttonClearTwo {
+  margin-top: 53px;
+    margin-right: 24px;
+  }
+
+.buttonClear:hover {
+	transition: 0.5s;
+	cursor: pointer;
+	color: #ffffff;
+	box-shadow: 0px 0px 16px 1px #ffffff;
+}
+
+.buttonClear:active {
+	position: relative;
+	top: 1px;
+	box-shadow: none;
+}
+
+.buttonClear:focus {
+	outline: none !important
+}
+
+.entryMovie {
+	display: inline-block;
+}
+
+
+
+/* .nav-item{ */
+/* 	float: left; */
+/*     marker: none; */
+/*     display: block; */
+/*     width: 232px; */
+/*     height: 84px; */
+/* } */
+/* .nav-item a{ */
+/* 	padding-top: 14px; */
+/*     color: white; */
+/*     display: inline-block; */
+/*     font-size: 41px; */
+/*     font-family: serif; */
+/*     transition: 0.85s; */
+/*     height: 70px;} */
+
+
+ #nav-list .nav-item-select a{
+	text-decoration: underline;
+}
+
+
+/* .nav-list{ */
+/* 	position: absolute; */
+/*     display: inline-block; */
+/*     list-style: none; */
+/*     margin: 13px 0 0 -105; */
+/*     width: 474px; */
+/*     height: 84px; */
+/*     margin-top: 0px; */
+/* } */
+
+
+
+
+
+
+
+
+.sign-in-form{
+	width: 100%;
+	max-width: 355px;
+	border-radius: 0;
+    text-align: center;
+	font-size: 22px;
+	color: black;
+}
+
+.input-persons-block{
+	background: black;
+    border-radius: 5px;
+    padding-top: 18px;
+    min-height: 110px;
+	padding-bottom: 16px;
+}
+
+#personOne, #personTwo{
+	    margin-top: 29px;
+		margin-bottom: 29px;
+		width: 100%;
+    max-width: 376px;
+}
+
+.personSelect p{
+	font-size: 18px;
+}
+
+#submitButton{
+	text-align : center;
+}
+
+.btnSubmit {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btnSubmit:active {
+
+	top:1px;
+		
+}
+
+.btnSubmit:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Button 1 */
+.btn-1 {
+	border: 3px solid #fff;
+	color: #fff;
+}
+
+/* Button 1a */
+.btn-1a:hover,
+.btn-1a:active {
+	color: black;
+	background: #fff;
+}
+
+#logo img {
+    height: 82px;
+}
+
+a#logo {
+    padding: 0;
+}
+
+#head-menu{
+	 background: black;
+	 border: none;
+}
+
+#nav-list{
+	min-height : 82px;
+}
+
+#nav-list li{
+	height : 82px;
+	text-align: center;
+}
+
+ #nav-list a{
+	
+	
+    padding-top: 28px;
+    color: white;
+    display: inline-block;
+    font-size: 41px;
+    font-family: serif;
+    transition: 0.85s;
+    height: 82px;
+}
+
+#nav-list a:hover{
+
+    background-color:white;
+    color: black;
+	transition : 0.85s;	
+}
+
+#descriptionOfSite{
+	    margin-top: 81px;
+    text-align: center
+}
+
+#descriptionOfSite h3{
+	  
+}
+
+/* .nav-item a:hover{ */
+
+/*     background-color:white; */
+/*     color: black; */
+/* 	transition : 0.85s;	 */
+/* } */

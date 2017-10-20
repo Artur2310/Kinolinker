@@ -1,0 +1,58 @@
+.ui-autocomplete {
+	max-height: 300px;
+	overflow-y: auto;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+}
+
+.ui-autocomplete-loading {
+	background: white url("") right center no-repeat;
+}
+.ui-menu-item .imdbTitle {
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.ui-menu-item .personImage {
+	float: left;
+	margin-right: 5px;
+	border-radius: 5px 5px 5px 5px;
+	width: 50px;
+	height: 67px;
+}
+
+li div.ui-menu-item-wrapper {
+	display: inline-block;
+}
+
+.ui-menu-item {
+	position: relative;
+	display: inline-block;
+}
+
+#ui-id-1 {
+	border-radius: 10px 0 0 10px;
+	    border: none;
+}
+
+#ui-id-2 {
+	border-radius: 10px 0 0 10px;
+}
+
+.person {
+	float: left;
+	text-align: center;
+	display: inline-table;
+	margin-right: 19px;
+	margin-left: 3px;
+	width: 48px;
+	
+	margin-bottom: 5px;
+	height: 66px;
+}
+
+.namePerson {
+	margin-top: 8px;
+	margin-left: 65px;
+	font-size: large;
+}

@@ -1,0 +1,239 @@
+.content {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.system-menu {
+   margin-top: 10px;
+    display: inline-flex;
+    position: relative;
+    margin-left: 677px;
+}
+
+.menu_button{
+	margin-right: 58px;
+}
+
+.person_info{
+	display: inline-block;
+    width: 715px;
+    margin-left: 150px;
+}
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #666;
+    line-height: 20px;
+}
+
+.main-pic {
+    float: left;
+    margin-right: 14px;
+    text-align: center;
+}
+
+
+
+.content ul {
+    list-style-type: none;
+    color: #333;
+}
+
+.content ul strong {
+    font-weight: bold;
+    color: #000;
+}
+
+h2 {
+    font-size: 18px;
+    color: #333;
+    padding-bottom: 5px;
+    font-style: italic;
+    line-height: 24px;
+} 
+
+
+
+.movie-list-item, .ui-menu-item-wrapper .movie {
+    float: left;
+    text-align: center;
+    display: inline-table;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 53px;
+    height: 100px;
+    margin-bottom: 5px;
+    height: 66px;
+}
+
+.director_of_movies, .actor_of_movies{
+	display: inline-block;
+    padding-top: 21px;
+    margin-top: 2px;
+    border-top: solid;
+    border-color: gray;
+    border-width: 1px;
+}
+
+.header_movies {
+    margin-bottom: 10px;
+}
+
+#dMovieslist .movie-list-item, #aMovieslist .movie-list-item {
+    height: 165px;
+}
+
+strong.header_role {
+    float: left;
+        padding-top: 8px;
+    margin-right: 50px;
+        width: 100px; 
+}
+
+.ui-menu-item .movieImage {
+	float: left;
+	margin-right: 5px;
+	border-radius: 5px 5px 5px 5px;
+	width: 50px;
+	height: 67px;
+}
+
+li div.ui-menu-item-wrapper {
+	display: inline-block;
+}
+
+.ui-menu-item {
+	position: relative;
+	display: inline-block;
+}
+
+#ui-id-1 {
+	border-radius: 10px 0 0 10px;
+}
+
+#ui-id-2 {
+	border-radius: 10px 0 0 10px;
+}
+
+/* стили для поля ввода */
+.input_movie {
+	/* за счет верхнего (8px) и нижнего (9px) внутренних отступов
+  ** регулируем высоту формы
+  ** внутренний отступ справа (37px) делаем больше левого,
+  ** т.к. там будет размещена кнопка отправки	*/
+	padding: 8px 37px 9px 15px;
+	/* чтобы ширина поля ввода (100%) включала в себя внутренние отступы */
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/* добавляем внутренние тени */
+	/* закругляем углы */
+	border-radius: 20px;
+	color: #555;
+	outline: none;
+	width: 265px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+} 
+
+#dMovieslist, #aMovieslist {
+	display : inline-block; 
+	 
+}
+
+.movie{
+	float: left;
+	text-align: center;
+	display: inline-table;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 53px; 
+    height: 100px;
+    margin-bottom: 5px;
+    height: 66px;
+}
+
+.movie_title {
+    width: 110px;
+}
+
+.titleMovie {
+	margin-top: 8px;
+    margin-left: 65px;
+}
+
+strong{
+	display: block;
+} 
+
+.menu_button .btn-delete{
+background-color: red;
+    border-color: red;	
+}
+
+.menu_button .btn-delete:hover{
+	background-color: maroon;
+    border-color: maroon;
+}
+
+.movie-list-item .btn-delete{
+	background-color: red;
+    border-color: red;
+    height: 22px;
+    padding-top: 1px;
+    width: 78px;
+    padding-left: 8px;
+    margin-bottom: 8px;
+}
+
+.movie-list-item .btn-delete:hover{
+	background-color: maroon;
+    border-color: maroon;
+}
+ .button_upload {
+     margin-top: 20px; 
+	-moz-box-shadow:inset -13px -50px 3px -4px #54a3f7;
+	-webkit-box-shadow:inset -13px -50px 3px -4px #54a3f7;
+	box-shadow:inset -13px -50px 3px -4px #54a3f7;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b3def5), color-stop(1, #0061a7));
+	background:-moz-linear-gradient(top, #b3def5 5%, #0061a7 100%);
+	background:-webkit-linear-gradient(top, #b3def5 5%, #0061a7 100%);
+	background:-o-linear-gradient(top, #b3def5 5%, #0061a7 100%);
+	background:-ms-linear-gradient(top, #b3def5 5%, #0061a7 100%);
+	background:linear-gradient(to bottom, #b3def5 5%, #0061a7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3def5', endColorstr='#0061a7',GradientType=0);
+	background-color:#b3def5;
+	border:1px solid #298dcf;
+	display:inline-block;
+	cursor:pointer;
+	color:#f0f0f0;
+	font-family:Arial;
+	font-size:13px;
+	padding:9px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.button_upload:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #b3def5));
+	background:-moz-linear-gradient(top, #0061a7 5%, #b3def5 100%);
+	background:-webkit-linear-gradient(top, #0061a7 5%, #b3def5 100%);
+	background:-o-linear-gradient(top, #0061a7 5%, #b3def5 100%);
+	background:-ms-linear-gradient(top, #0061a7 5%, #b3def5 100%);
+	background:linear-gradient(to bottom, #0061a7 5%, #b3def5 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#b3def5',GradientType=0);
+	background-color:#0061a7;
+}
+.button_upload:active {
+	position:relative;
+	top:1px;
+}
